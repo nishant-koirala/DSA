@@ -17,7 +17,7 @@ public class QueueImplementationUsingArray {
         if (rear == maxsize - 1) {
             System.out.println("Queue is full");
         } else {
-              System.out.print("Enter element to be pushed: ");
+             
             rear++;
             size++;
             queue[rear] = data;
@@ -61,7 +61,7 @@ public class QueueImplementationUsingArray {
 
             switch (choice) {
                 case 1:
-                  
+                   System.out.print("Enter element to be pushed: ");
                     q.inqueue(sc.nextInt());
                     break;
                 case 2:
@@ -77,6 +77,7 @@ public class QueueImplementationUsingArray {
                     System.out.println("Invalid Request");
                     break;
             }
+            sc.close();
         }
     }
 }
