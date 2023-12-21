@@ -79,7 +79,7 @@ public class StackImplementationUsingArray{
                 System.out.println("Invalid Request");
                 break;
         }
-          
+           sc.close();
     }
       
    }
